@@ -1,0 +1,424 @@
++ set -e
++ cd /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000-active
++ echo Checking:
++ pwd
++ hostname
++ date
++ cat
++ export LD_LIBRARY_PATH=/cluster/Compiler/Intel/11.1.072/lib/intel64:
++ LD_LIBRARY_PATH=/cluster/Compiler/Intel/11.1.072/lib/intel64:
++ echo Environment:
++ export GMON_OUT_PREFIX=gmon.out
++ GMON_OUT_PREFIX=gmon.out
++ export OMP_NUM_THREADS=6
++ OMP_NUM_THREADS=6
++ export MPIDIR=/cluster/openmpi/SL6/1.5.4/intel/11.1.072/
++ MPIDIR=/cluster/openmpi/SL6/1.5.4/intel/11.1.072/
++ export MPI_NODEFILE=/tmp/281112.1.daturamon.q/machines
++ MPI_NODEFILE=/tmp/281112.1.daturamon.q/machines
++ env
++ sort
++ echo Starting:
++ uniq /tmp/281112.1.daturamon.q/machines
+++ cat PROC_NODES
++ for node in '$(cat PROC_NODES)'
++ (( proc=0 ))
++ (( 0<2 ))
++ echo kop153
++ (( proc=0+1 ))
++ (( 1<2 ))
++ echo kop153
++ (( proc=1+1 ))
++ (( 2<2 ))
+++ date +%s
++ export CACTUS_STARTTIME=1332978293
++ CACTUS_STARTTIME=1332978293
++ /cluster/openmpi/SL6/1.5.4/intel/11.1.072//bin/mpirun -v --mca btl openib,self --mca mpi_leave_pinned 0 -np 2 -npernode 2 /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim -L 3 /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/bbh.par
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+WARNING level 1 in thorn CarpetReduce processor 0 host kop153.datura.admin
+  (line 120 of /home/barry/Cactus/EinsteinToolkit_Maxwell/arrangements/Carpet/CarpetReduce/src/mask_test.c): 
+  -> Simulation domain volume and reduction weight sum differ
+
+real	13m20.407s
+user	119m40.288s
+sys	1m12.840s
++ echo Stopping:
++ date
++ echo Done.

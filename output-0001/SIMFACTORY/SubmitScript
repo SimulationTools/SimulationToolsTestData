@@ -1,0 +1,15 @@
+#! /bin/bash
+#$ -r n
+#$ -l h_rt=12:00:00
+#$ -q daturamon.q
+#$ -pe daturamon 12
+#$ -hold_jid 281112
+#$ -N bbh-0001
+#$ -M barry.wardell@aei.mpg.de
+#$ -m abe
+#$ -o /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh.out
+#$ -e /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh.err
+#$ -cwd
+#$ -R y
+cd /home/barry/Cactus/EinsteinToolkit_Maxwell
+/home/barry/Cactus/EinsteinToolkit_Maxwell/simfactory/bin/sim run bbh --machine=datura --restart-id=1 --from-restart-id=0

@@ -1,0 +1,135 @@
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::Creating simulation bbh
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::Simulation directory: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::Simulation Properties:
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::[properties]
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::machine         = datura
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::simulationid    = simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::sourcedir       = /home/barry/Cactus/EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::configuration   = sim
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::configid        = config-sim-login-damiana.damiana.admin-home-barry-Cactus-EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::buildid         = build-sim-login-damiana.damiana.admin-barry-2012.03.28-18.17.23-3129
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::testsuite       = False
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::executable      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::optionlist      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/cfg/OptionList
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::submitscript    = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::runscript       = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/RunScript
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::parfile         = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/par/bbh.par
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::
+[LOG:2012-03-29 01:44:39] restart.create(simulationName, parfile)::Simulation bbh created
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::Restart for simulation bbh created with restart id 0, long restart id 0000
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::Prepping for submission
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::No previous walltime available to be used, using walltime 0:40:00
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::Defined substituion properties for submission
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::{'SIMULATION_ID': 'simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127', 'PPN_USED': 12, 'PPN': 12, 'QUEUE': 'daturamon.q', 'WALLTIME_HH': '00', 'CPUFREQ': '2666', 'USER': 'barry', 'RUNDIR': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000', 'NODES': 1, 'SIMULATION_NAME': 'bbh', 'WALLTIME': '0:40:00', 'NUM_THREADS': 6, 'EXECUTABLE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim', 'PROCS_REQUESTED': 12, 'EMAIL': 'barry.wardell@aei.mpg.de', 'RESTART_ID': 0, 'CHAINED_JOB_ID': '', 'FROM_RESTART_COMMAND': '', 'WALLTIME_SECONDS': 2400, 'SIMFACTORY': '/home/barry/Cactus/EinsteinToolkit_Maxwell/simfactory/bin/sim', 'PROCS': 12, 'SUBMITSCRIPT': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/SubmitScript', 'WALLTIME_HOURS': 0.66666666666666663, 'WALLTIME_MM': '40', 'PARFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/bbh.par', 'WALLTIME_SS': '00', 'ALLOCATION': 'TG-MCA02N014', 'CONFIGURATION': 'sim', 'SOURCEDIR': '/home/barry/Cactus/EinsteinToolkit_Maxwell', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'NUM_PROCS': 2, 'SCRIPTFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 40, 'SHORT_SIMULATION_NAME': 'bbh-0000'}
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::self.Properties: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/properties.ini
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::[properties]
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::machine         = datura
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::simulationid    = simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::sourcedir       = /home/barry/Cactus/EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::configuration   = sim
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::configid        = config-sim-login-damiana.damiana.admin-home-barry-Cactus-EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::buildid         = build-sim-login-damiana.damiana.admin-barry-2012.03.28-18.17.23-3129
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::testsuite       = False
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::executable      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::optionlist      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/cfg/OptionList
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::submitscript    = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::runscript       = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/RunScript
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::parfile         = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/par/bbh.par
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::chainedjobid    = -1
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::ppn             = 12
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::procsrequested  = 12
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::allocation      = TG-MCA02N014
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::user            = barry
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::procs           = 12
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::walltime        = 0:40:00
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::numprocs        = 2
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::numthreads      = 6
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::hostname        = login-damiana.aei.mpg.de
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::ppnused         = 12
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::queue           = daturamon.q
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::cpufreq         = 2666
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::memory          = 24576
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::nodes           = 1
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::pbsSimulationName= bbh-0000
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::saving substituted submitscript contents to: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/SubmitScript
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::Executing submission command: qsub /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/SubmitScript
+[LOG:2012-03-29 01:44:39] self.makeActive()::Simulation bbh with restart-id 0 has been made active
+[LOG:2012-03-29 01:44:39] job_id = self.extractJobId(output)::received raw output: Your job 281112 ("bbh-0000") has been submitted
+[LOG:2012-03-29 01:44:39] job_id = self.extractJobId(output)::
+[LOG:2012-03-29 01:44:39] job_id = self.extractJobId(output)::using submitRegex: (\d+)
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::After searching raw output, it was determined that the job_id is: 281112
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::If this is -1, that means the regex did NOT match anything. No job_id means no control.
+[LOG:2012-03-29 01:44:39] self.submit(submitScript)::Simulation bbh, with restart id 0, and job id 281112 has been submitted
+[LOG:2012-03-29 01:44:53] self.load(simulationName, restartId)::For simulation bbh, loaded restart id 0, long restart id 0000
+[LOG:2012-03-29 01:44:53] self.run()::Prepping for execution/run
+[LOG:2012-03-29 01:44:53] checkpointing = self.PrepareCheckpointing(recover_id)::PrepareCheckpointing: max_restart_id: -1
+[LOG:2012-03-29 01:44:53] self.run()::Defined substitution properties for execution/run
+[LOG:2012-03-29 01:44:53] self.run()::{'SIMULATION_ID': 'simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127', 'PPN_USED': '12', 'PPN': '12', 'WALLTIME_HH': '00', 'CPUFREQ': '2666', 'USER': 'barry', 'RUNDIR': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000', 'NODES': '1', 'SIMULATION_NAME': 'bbh', 'WALLTIME': '0:40:00', 'NUM_THREADS': '6', 'EXECUTABLE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim', 'SCRATCHDIR': '/tmp/@USER@/@JOB_ID@', 'PROCS_REQUESTED': '12', 'RESTART_ID': 0, 'WALLTIME_SECONDS': 2400, 'CONFIGURATION': 'sim', 'PROCS': '12', 'SUBMITSCRIPT': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript', 'WALLTIME_MM': '40', 'PARFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/bbh.par', 'WALLTIME_SS': '00', 'WALLTIME_HOURS': 0.66666666666666663, 'SOURCEDIR': '/home/barry/Cactus/EinsteinToolkit_Maxwell', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'RUNDEBUG': 0, 'NUM_PROCS': '2', 'SCRIPTFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 40, 'SHORT_SIMULATION_NAME': 'bbh-0000'}
+[LOG:2012-03-29 01:44:53] self.run()::Executing run command: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0000/SIMFACTORY/RunScript
+[LOG:2012-03-29 01:49:05] restart.load(simulationName, active_id)::For simulation bbh, loaded restart id 0, long restart id 0000
+[LOG:2012-03-29 01:49:05] restart.load(simulationName, max_id)::For simulation bbh, loaded restart id 0, long restart id 0000
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::Restart for simulation bbh created with restart id 1, long restart id 0001
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::Prepping for submission
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::No previous walltime available to be used, using walltime 12:00:00
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::Defined substituion properties for submission
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::{'SIMULATION_ID': 'simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127', 'PPN_USED': 12, 'PPN': 12, 'QUEUE': 'daturamon.q', 'WALLTIME_HH': '12', 'CPUFREQ': '2666', 'USER': 'barry', 'RUNDIR': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001', 'NODES': 1, 'SIMULATION_NAME': 'bbh', 'WALLTIME': '12:00:00', 'NUM_THREADS': 6, 'EXECUTABLE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim', 'PROCS_REQUESTED': 12, 'EMAIL': 'barry.wardell@aei.mpg.de', 'RESTART_ID': 1, 'CHAINED_JOB_ID': '281112', 'FROM_RESTART_COMMAND': '--from-restart-id=0', 'WALLTIME_SECONDS': 43200, 'SIMFACTORY': '/home/barry/Cactus/EinsteinToolkit_Maxwell/simfactory/bin/sim', 'PROCS': 12, 'SUBMITSCRIPT': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/SubmitScript', 'WALLTIME_HOURS': 12.0, 'WALLTIME_MM': '00', 'PARFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh.par', 'WALLTIME_SS': '00', 'ALLOCATION': 'TG-MCA02N014', 'CONFIGURATION': 'sim', 'SOURCEDIR': '/home/barry/Cactus/EinsteinToolkit_Maxwell', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'NUM_PROCS': 2, 'SCRIPTFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 720, 'SHORT_SIMULATION_NAME': 'bbh-0001'}
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::self.Properties: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/properties.ini
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::[properties]
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::machine         = datura
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::simulationid    = simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::sourcedir       = /home/barry/Cactus/EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::configuration   = sim
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::configid        = config-sim-login-damiana.damiana.admin-home-barry-Cactus-EinsteinToolkit_Maxwell
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::buildid         = build-sim-login-damiana.damiana.admin-barry-2012.03.28-18.17.23-3129
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::testsuite       = False
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::executable      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::optionlist      = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/cfg/OptionList
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::submitscript    = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::runscript       = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/RunScript
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::parfile         = /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/par/bbh.par
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::chainedjobid    = 281112
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::ppn             = 12
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::procsrequested  = 12
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::allocation      = TG-MCA02N014
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::user            = barry
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::procs           = 12
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::walltime        = 12:00:00
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::numprocs        = 2
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::numthreads      = 6
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::hostname        = login-damiana.aei.mpg.de
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::ppnused         = 12
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::queue           = daturamon.q
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::cpufreq         = 2666
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::memory          = 24576
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::nodes           = 1
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::pbsSimulationName= bbh-0001
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::saving substituted submitscript contents to: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/SubmitScript
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::Executing submission command: qsub /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/SubmitScript
+[LOG:2012-03-29 01:49:05] job_id = self.extractJobId(output)::received raw output: Your job 281113 ("bbh-0001") has been submitted
+[LOG:2012-03-29 01:49:05] job_id = self.extractJobId(output)::
+[LOG:2012-03-29 01:49:05] job_id = self.extractJobId(output)::using submitRegex: (\d+)
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::After searching raw output, it was determined that the job_id is: 281113
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::If this is -1, that means the regex did NOT match anything. No job_id means no control.
+[LOG:2012-03-29 01:49:05] self.submit(submitScript, chainedJobId, maxRestartId)::Simulation bbh, with restart id 1, and job id 281113 has been submitted
+[LOG:2012-03-29 02:04:38] self.load(simulationName, restartId)::For simulation bbh, loaded restart id 1, long restart id 0001
+[LOG:2012-03-29 02:04:38] restart.submitRun(simulationName, restart_id)::Following restart-id 0, finishing it.
+[LOG:2012-03-29 02:04:38] restart.load(simulationName, frid)::For simulation bbh, loaded restart id 0, long restart id 0000
+[LOG:2012-03-29 02:04:38] restart.finish()::For simulation bbh, Finishing restart 0000
+[LOG:2012-03-29 02:04:38] restart.finish()::Force option: False
+[LOG:2012-03-29 02:04:38] restart.finish()::Job ID: 281112, Job Status: U
+[LOG:2012-03-29 02:04:38] restart.finish()::Cleaning up simulation bbh, restart 0, with job_status U
+[LOG:2012-03-29 02:04:38] restart.finish()::Simulation bbh, restart 0, with job id 281112 has been successfully cleaned up
+[LOG:2012-03-29 02:04:38] self.makeActive()::Simulation bbh with restart-id 1 has been made active
+[LOG:2012-03-29 02:04:38] self.run()::Prepping for execution/run
+[LOG:2012-03-29 02:04:38] checkpointing = self.PrepareCheckpointing(recover_id)::PrepareCheckpointing: max_restart_id: 0
+[LOG:2012-03-29 02:04:38] checkpointing = self.PrepareCheckpointing(recover_id)::Restoring from restart id 0, 04d is: 0000
+[LOG:2012-03-29 02:04:38] checkpointing = self.PrepareCheckpointing(recover_id)::Current working directory for simulation is: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh
+[LOG:2012-03-29 02:04:38] checkpointing = self.PrepareCheckpointing(recover_id)::/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh does not exist, creating
+[LOG:2012-03-29 02:04:38] self.run()::Defined substitution properties for execution/run
+[LOG:2012-03-29 02:04:38] self.run()::{'SIMULATION_ID': 'simulation-bbh-datura-login-damiana.aei.mpg.de-barry-2012.03.29-01.44.39-11127', 'PPN_USED': '12', 'PPN': '12', 'WALLTIME_HH': '12', 'CPUFREQ': '2666', 'USER': 'barry', 'RUNDIR': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001', 'NODES': '1', 'SIMULATION_NAME': 'bbh', 'WALLTIME': '12:00:00', 'NUM_THREADS': '6', 'EXECUTABLE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/exe/cactus_sim', 'SCRATCHDIR': '/tmp/@USER@/@JOB_ID@', 'PROCS_REQUESTED': '12', 'RESTART_ID': 1, 'WALLTIME_SECONDS': 43200, 'CONFIGURATION': 'sim', 'PROCS': '12', 'SUBMITSCRIPT': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript', 'WALLTIME_MM': '00', 'PARFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/bbh.par', 'WALLTIME_SS': '00', 'WALLTIME_HOURS': 12.0, 'SOURCEDIR': '/home/barry/Cactus/EinsteinToolkit_Maxwell', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'RUNDEBUG': 0, 'NUM_PROCS': '2', 'SCRIPTFILE': '/lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/SIMFACTORY/run/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 720, 'SHORT_SIMULATION_NAME': 'bbh-0001'}
+[LOG:2012-03-29 02:04:39] self.run()::Executing run command: /lustre/datura/barry/simulations/EinsteinToolkit_Maxwell/bbh/output-0001/SIMFACTORY/RunScript

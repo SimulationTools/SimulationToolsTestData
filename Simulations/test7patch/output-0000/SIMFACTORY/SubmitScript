@@ -1,0 +1,15 @@
+#! /bin/bash
+#$ -r n
+#$ -l h_rt=1:00:00
+#$ -q daturamon.q
+#$ -pe daturamon 12
+#$ 
+#$ -N test7patch-0000
+#$ -M ian.hinder@aei.mpg.de
+#$ -m abe
+#$ -o /lustre/datura/ianhin/simulations/test7patch/output-0000/test7patch.out
+#$ -e /lustre/datura/ianhin/simulations/test7patch/output-0000/test7patch.err
+#$ -cwd
+#$ -R y
+cd /home/ianhin/Cactus/Convergence
+/home/ianhin/Cactus/Convergence/simfactory/bin/sim run test7patch --machine=datura --restart-id=0 

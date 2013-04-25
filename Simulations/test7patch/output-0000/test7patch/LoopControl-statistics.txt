@@ -1,0 +1,126 @@
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00229907 s, avg/point=4.3283e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=5, avg/thread=0.000179338 s, avg/point=4.6004e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=5, avg/thread=5.77927e-05 s, avg/point=8.89501e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=5, avg/thread=0.000106001 s, avg/point=5.43829e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00776005 s, avg/point=1.46093e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00227499 s, avg/point=4.34163e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=5, avg/thread=0.000126743 s, avg/point=6.57164e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=5, avg/thread=0.000166368 s, avg/point=4.3131e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=5, avg/thread=5.64098e-05 s, avg/point=8.77455e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.0072062 s, avg/point=1.37525e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00225997 s, avg/point=4.31297e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=5, avg/thread=0.000181389 s, avg/point=4.68836e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=5, avg/thread=6.05583e-05 s, avg/point=9.39151e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=5, avg/thread=0.00011816 s, avg/point=6.10818e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00727201 s, avg/point=1.3878e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00225496 s, avg/point=4.36236e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=5, avg/thread=0.000114965 s, avg/point=6.00637e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=5, avg/thread=0.000162792 s, avg/point=4.25254e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=5, avg/thread=5.55515e-05 s, avg/point=8.70686e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00713396 s, avg/point=1.38011e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000447989 s, avg/point=4.24984e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=5.17802e-05 s, avg/point=4.18546e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.48389e-05 s, avg/point=1.0749e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00143194 s, avg/point=1.35841e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000454903 s, avg/point=4.31543e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=5.2322e-05 s, avg/point=4.22926e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.49906e-05 s, avg/point=1.08146e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00140715 s, avg/point=1.33489e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00228906 s, avg/point=4.38769e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=7, avg/thread=0.0001766 s, avg/point=4.47238e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=7, avg/thread=5.8651e-05 s, avg/point=8.91197e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=3, avg/thread=0.000107288 s, avg/point=4.37305e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00692296 s, avg/point=1.327e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.00226092 s, avg/point=4.39313e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=7, avg/thread=0.000176702 s, avg/point=4.51732e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=7, avg/thread=6.16142e-05 s, avg/point=9.45085e-09 s
+   Loop CoordBase_SetupMask_ghost (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:220): count=3, avg/thread=0.000115792 s, avg/point=4.74693e-09 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00700808 s, avg/point=1.36172e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000452042 s, avg/point=4.28829e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=5.27772e-05 s, avg/point=4.26605e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.38202e-05 s, avg/point=1.03081e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00142598 s, avg/point=1.35276e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000451803 s, avg/point=4.28603e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=5.24738e-05 s, avg/point=4.24152e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.40803e-05 s, avg/point=1.04207e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00144386 s, avg/point=1.36972e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000447035 s, avg/point=4.24079e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=7.53186e-05 s, avg/point=6.0881e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.37118e-05 s, avg/point=1.02612e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00142908 s, avg/point=1.3557e-08 s
+
+LoopControl statistics:
+   Loop Interpolate2TestInit (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:31):
+   Loop count_points (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:595):
+   Loop collect_coordinates (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/interpolate.cc:640):
+   Loop Interpolate2TestCheck (/home/ianhin/Cactus/Convergence/arrangements/Llama/Interpolate2/src/test.cc:92):
+   Loop MaskBase_InitMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_init.c:27): count=1, avg/thread=0.000441074 s, avg/point=4.18425e-09 s
+   Loop CoordBase_SetupMask_boundary (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:124): count=11, avg/thread=5.26255e-05 s, avg/point=4.25378e-09 s
+   Loop CoordBase_SetupMask_boundary2 (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_coords.c:180): count=11, avg/thread=2.36468e-05 s, avg/point=1.02331e-08 s
+   Loop MaskBase_SetMask_all (/home/ianhin/Cactus/Convergence/arrangements/Carpet/CarpetReduce/src/mask_set.c:26): count=1, avg/thread=0.00141597 s, avg/point=1.34326e-08 s

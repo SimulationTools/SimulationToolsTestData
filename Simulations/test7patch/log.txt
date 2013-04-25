@@ -1,0 +1,70 @@
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::Creating simulation test7patch
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::Simulation directory: /lustre/datura/ianhin/simulations/test7patch
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::Simulation Properties:
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::[properties]
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::machine         = datura
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::simulationid    = simulation-test7patch-datura-login-damiana.aei.mpg.de-ianhin-2013.02.18-21.53.05-7867
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::sourcedir       = /home/ianhin/Cactus/Convergence
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::configuration   = sim
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::configid        = config-sim-datura-home-ianhin-Cactus-Convergence
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::buildid         = build-sim-datura-ianhin-2013.02.18-19.30.00-360
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::testsuite       = False
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::executable      = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/exe/cactus_sim
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::optionlist      = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/cfg/OptionList
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::submitscript    = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/SubmitScript
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::runscript       = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/RunScript
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::parfile         = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/par/test7patch.par
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::
+[LOG:2013-02-18 21:53:05] restart.create(simulationName, parfile)::Simulation test7patch created
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::Restart for simulation test7patch created with restart id 0, long restart id 0000
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::Prepping for submission
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::No previous walltime available to be used, using walltime 1:00:00
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::Defined substituion properties for submission
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::{'SIMULATION_ID': 'simulation-test7patch-datura-login-damiana.aei.mpg.de-ianhin-2013.02.18-21.53.05-7867', 'PPN_USED': 12, 'PPN': 12, 'QUEUE': 'daturamon.q', 'WALLTIME_HH': '01', 'CPUFREQ': '2.666', 'USER': 'ianhin', 'RUNDIR': '/lustre/datura/ianhin/simulations/test7patch/output-0000', 'NODES': 1, 'SIMULATION_NAME': 'test7patch', 'WALLTIME': '1:00:00', 'NUM_THREADS': 1, 'EXECUTABLE': '/lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/exe/cactus_sim', 'PROCS_REQUESTED': 12, 'EMAIL': 'ian.hinder@aei.mpg.de', 'RESTART_ID': 0, 'CHAINED_JOB_ID': '', 'FROM_RESTART_COMMAND': '', 'WALLTIME_SECONDS': 3600, 'SIMFACTORY': '/home/ianhin/Cactus/Convergence/simfactory/bin/sim', 'PROCS': 12, 'SUBMITSCRIPT': '/lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/SubmitScript', 'WALLTIME_HOURS': 1.0, 'WALLTIME_MM': '00', 'PARFILE': '/lustre/datura/ianhin/simulations/test7patch/output-0000/test7patch.par', 'WALLTIME_SS': '00', 'ALLOCATION': 'TG-MCA02N014', 'CONFIGURATION': 'sim', 'SOURCEDIR': '/home/ianhin/Cactus/Convergence', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'NUM_PROCS': 12, 'SCRIPTFILE': '/lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 60, 'SHORT_SIMULATION_NAME': 'test7patch-0000'}
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::self.Properties: /lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/properties.ini
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::[properties]
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::machine         = datura
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::simulationid    = simulation-test7patch-datura-login-damiana.aei.mpg.de-ianhin-2013.02.18-21.53.05-7867
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::sourcedir       = /home/ianhin/Cactus/Convergence
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::configuration   = sim
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::configid        = config-sim-datura-home-ianhin-Cactus-Convergence
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::buildid         = build-sim-datura-ianhin-2013.02.18-19.30.00-360
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::testsuite       = False
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::executable      = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/exe/cactus_sim
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::optionlist      = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/cfg/OptionList
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::submitscript    = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/SubmitScript
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::runscript       = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/RunScript
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::parfile         = /lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/par/test7patch.par
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::chainedjobid    = -1
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::ppn             = 12
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::procsrequested  = 12
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::allocation      = TG-MCA02N014
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::user            = ianhin
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::procs           = 12
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::walltime        = 1:00:00
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::numprocs        = 12
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::numthreads      = 1
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::hostname        = login-damiana.aei.mpg.de
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::ppnused         = 12
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::queue           = daturamon.q
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::cpufreq         = 2.666
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::memory          = 24576
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::nodes           = 1
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::pbsSimulationName= test7patch-0000
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::saving substituted submitscript contents to: /lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/SubmitScript
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::Executing submission command: qsub /lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/SubmitScript
+[LOG:2013-02-18 21:53:05] self.makeActive()::Simulation test7patch with restart-id 0 has been made active
+[LOG:2013-02-18 21:53:05] job_id = self.extractJobId(output)::received raw output: Your job 297707 ("test7patch-0000") has been submitted
+[LOG:2013-02-18 21:53:05] job_id = self.extractJobId(output)::
+[LOG:2013-02-18 21:53:05] job_id = self.extractJobId(output)::using submitRegex: (\d+)
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::After searching raw output, it was determined that the job_id is: 297707
+[LOG:2013-02-18 21:53:05] self.submit(submitScript)::Simulation test7patch, with restart id 0, and job id 297707 has been submitted
+[LOG:2013-02-18 21:53:09] self.load(simulationName, restartId)::For simulation test7patch, loaded restart id 0, long restart id 0000
+[LOG:2013-02-18 21:53:09] self.run()::Prepping for execution/run
+[LOG:2013-02-18 21:53:09] checkpointing = self.PrepareCheckpointing(recover_id)::PrepareCheckpointing: max_restart_id: -1
+[LOG:2013-02-18 21:53:09] self.run()::Defined substitution properties for execution/run
+[LOG:2013-02-18 21:53:09] self.run()::{'SIMULATION_ID': 'simulation-test7patch-datura-login-damiana.aei.mpg.de-ianhin-2013.02.18-21.53.05-7867', 'PPN_USED': '12', 'PPN': '12', 'WALLTIME_HH': '01', 'CPUFREQ': '2.666', 'USER': 'ianhin', 'RUNDIR': '/lustre/datura/ianhin/simulations/test7patch/output-0000', 'NODES': '1', 'SIMULATION_NAME': 'test7patch', 'WALLTIME': '1:00:00', 'NUM_THREADS': '1', 'EXECUTABLE': '/lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/exe/cactus_sim', 'PROCS_REQUESTED': '12', 'RESTART_ID': 0, 'WALLTIME_SECONDS': 3600, 'CONFIGURATION': 'sim', 'PROCS': '12', 'SUBMITSCRIPT': '/lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/SubmitScript', 'WALLTIME_MM': '00', 'PARFILE': '/lustre/datura/ianhin/simulations/test7patch/output-0000/test7patch.par', 'WALLTIME_SS': '00', 'WALLTIME_HOURS': 1.0, 'SOURCEDIR': '/home/ianhin/Cactus/Convergence', 'HOSTNAME': 'login-damiana.aei.mpg.de', 'RUNDEBUG': 0, 'NUM_PROCS': '12', 'SCRIPTFILE': '/lustre/datura/ianhin/simulations/test7patch/SIMFACTORY/run/SubmitScript', 'MEMORY': '24576', 'WALLTIME_MINUTES': 60, 'SHORT_SIMULATION_NAME': 'test7patch-0000'}
+[LOG:2013-02-18 21:53:09] self.run()::Executing run command: /lustre/datura/ianhin/simulations/test7patch/output-0000/SIMFACTORY/RunScript
